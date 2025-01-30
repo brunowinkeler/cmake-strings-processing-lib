@@ -15,7 +15,7 @@ target_link_libraries(string_trim PUBLIC cxx_setup)
 
 if (BUILD_TESTING)
     add_executable(string_trim_test string_trim_test.cpp)
-    target_link_libraries(string_trim_test PRIVATE string_split)
+    target_link_libraries(string_trim_test PRIVATE string_trim)
     target_link_libraries(string_trim_test PRIVATE GTest::gtest_main)
 
     include(GoogleTest)
