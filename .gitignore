@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Folders
+external/googletest
+build/
