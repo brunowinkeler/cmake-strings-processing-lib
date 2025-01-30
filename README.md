@@ -36,6 +36,10 @@ homework_4/
     └── readme.md  # Project description
 ```
 
+## Namespace
+
+All functions are encapsulated in the no_strings_attached namespace.
+
 ## Testing
 
 Unit tests are implemented using `GoogleTest`, located within the `no_strings_attached` folder alongside the corresponding implementation files. The test framework is included as a submodule in the `external/` directory.
